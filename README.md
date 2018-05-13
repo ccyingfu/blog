@@ -3,8 +3,8 @@
 
 ### For Job
 ###
-1. [关于 Object.defineProperty](https://github.com/ccyingfu/blog/blob/master/DefineProperty.md)
+1. [关于 Object.defineProperty](https://github.com/ccyingfu/blog/blob/master/Job/DefineProperty.md)
 
 ### For Life
 ###
-1. 孙楠的 [拯救]
+1. 孙楠的 [拯救](https://github.com/ccyingfu/blog/blob/master/Life/Songs/Save.md)
