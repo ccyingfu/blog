@@ -2,7 +2,7 @@
 ### [Vue](https://cn.vuejs.org/index.html) 是 [尤雨溪](https://baike.baidu.com/item/%E5%B0%A4%E9%9B%A8%E6%BA%AA/2281470?fr=aladdin) 的作品
 ###
 目前 Vue 的数据双向绑定，底层还是通过 Object.defineProperty 过实现的  
-![Vue 双向绑定流程图](/two-way.png "Vue 双向绑定流程图")  
+![Vue 双向绑定流程图](./two-way.png "Vue 双向绑定流程图")  
 主要流程：
 1. 通过 Observe 来监听 data 的属性，这里就是 Object.defineProperty
 2. 当数据改变时，通过 set 来通知变化（通过 Dep 对象）。
