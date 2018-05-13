@@ -65,23 +65,23 @@ Object.defineProperty 是 ES5 最重要的特性之一。目前在项目中的�
 > 
 > For Example:
 >
->   <!-- html -->
->   <input id="name" />
+>     <!-- html -->
+>     <input id="name" />
 >   
->   <!-- js -->
->   var person = {};
->   var input = document.getElementById("name");
->   Object.defineProperty(person, "name", {
->       get: function(){
->           return input.value
->       },
->       set: function(newValue){
->           input.value = newValue;
->       }
->   });
->   input.addEventListener("keyup", function(e){
->       person.name = e.target.value;
->   }, false);
+>     <!-- js -->
+>     var person = {};
+>     var input = document.getElementById("name");
+>     Object.defineProperty(person, "name", {
+>         get: function(){
+>             return input.value
+>         },
+>         set: function(newValue){
+>             input.value = newValue;
+>         }
+>     });
+>     input.addEventListener("keyup", function(e){
+>         person.name = e.target.value;
+>     }, false);
 > 
 
 
