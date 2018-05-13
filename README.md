@@ -10,4 +10,5 @@
 
 ### For Life
 ###
-1. 孙楠的 [拯救](https://github.com/ccyingfu/blog/blob/master/Life/Songs/HowToSaveYouMyLove.md)
+1. [拯救](https://github.com/ccyingfu/blog/blob/master/Life/Songs/HowToSaveYouMyLove.md)
+2. [Something Just Like This](https://github.com/ccyingfu/blog/blob/master/Life/Songs/SomethingJustLikeThis.md)
