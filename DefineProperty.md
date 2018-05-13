@@ -31,7 +31,7 @@ Object.defineProperty 是 ES5 最重要的特性之一。目前在项目中的�
 > 
 >     function getSearchObj(){
 >         var searchValue = document.location.search.substring(1);
->         if(!searchValue) return [];
+>         if(!searchValue) return {};
 >         var arr = searchValue.split("&");
 >         var obj = {};
 >         arr.forEach(item => {
