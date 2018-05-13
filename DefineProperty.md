@@ -41,11 +41,11 @@ Object.defineProperty 是 ES5 最重要的特性之一。目前在项目中的�
 >         return obj;
 >     }
 >
->    var URL = {};
->    Object.defineProperty(URL, "search", {
->        value: getSearchObj()
->    });
->    console.log(URL.search.key);  // value
->    console.log(URL.search.name); // lee
->    console.log(URL.search.nothing); // undefined
+>     var URL = {};
+>     Object.defineProperty(URL, "search", {
+>         value: getSearchObj()
+>     });
+>     console.log(URL.search.key);  // value
+>     console.log(URL.search.name); // lee
+>     console.log(URL.search.nothing); // undefined
 
