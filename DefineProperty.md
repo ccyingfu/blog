@@ -49,3 +49,39 @@ Object.defineProperty 是 ES5 最重要的特性之一。目前在项目中的�
 >     console.log(URL.search.name); // lee
 >     console.log(URL.search.nothing); // undefined
 
+
+> ### 用法三：模拟“类”。
+> 
+> ###
+> 
+> 参考 [fclass](https://github.com/ccyingfu/fclass)
+
+
+> ### 用法四：MVVM 框架 Vue 中双向绑定的底层逻辑。
+> 
+> ###
+> 
+> 最简单的“数据-视图”双向绑定
+> 
+> For Example:
+>
+>   <!-- html -->
+>   <input id="name" />
+>   
+>   <!-- js -->
+>   var person = {};
+>   var input = document.getElementById("name");
+>   Object.defineProperty(person, "name", {
+>       get: function(){
+>           return input.value
+>       },
+>       set: function(newValue){
+>           input.value = newValue;
+>       }
+>   });
+>   input.addEventListener("keyup", function(e){
+>       person.name = e.target.value;
+>   }, false);
+> 
+
+
