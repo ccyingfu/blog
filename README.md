@@ -1,5 +1,5 @@
-# ccyingfu 的博客
-##### --- 主要记录一些在工作和生活中的一些心得体会，呵呵。
+# ccyingfu's blog
+##### --- Use to mark something from my Job and Life，LOL。
 
 ### For Job
 ###
@@ -7,4 +7,4 @@
 
 ### For Life
 ###
-1. 孙楠的 [拯救](https://github.com/ccyingfu/blog/blob/master/Life/Songs/Save.md)
+1. 孙楠的 [拯救](https://github.com/ccyingfu/blog/blob/master/Life/Songs/HowToSaveYouMyLove.md)
