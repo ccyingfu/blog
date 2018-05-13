@@ -119,5 +119,3 @@ Somebody I can kiss
 I want something just like this  
 我想要的也不过如此  
 
-<audio src="sss.mp3" controls="controls">
-</audio>
