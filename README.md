@@ -8,6 +8,7 @@
 3. [Vue 的优缺点](https://github.com/ccyingfu/blog/blob/master/Job/VueEnsnare.md)
 4. [关于 Proxy 与 Object.defineProperty 的对比](https://github.com/ccyingfu/blog/blob/master/Job/AboutProxy.md)
 5. [关于架构](https://github.com/ccyingfu/blog/blob/master/Job/Architecture.md)
+6. [记录学习 react-native 遇到的坑](https://github.com/ccyingfu/react-native-issue)
 
 ### Collection
 1. [来一场轰轰烈烈的HTTP协议扫盲革命(转)](https://juejin.im/post/5ac1eb2d6fb9a028de44dd41)
