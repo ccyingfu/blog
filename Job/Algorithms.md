@@ -33,6 +33,7 @@
 > 1-1  （运行时间比较） 假设求解问题的算法需要 f(n) 毫秒，对下标中的每个函数 f(n) 和时间 t，确定可以在时间 t 内求解的问题的最大规模 n。
 
 <table>
+<tr>
 <th></th>
 <th> 1 秒钟 </th>
 <th> 1 分钟 </th>
@@ -41,4 +42,85 @@
 <th> 1 月 </th>
 <th> 1 年 </th>
 <th> 1 世纪 </th>
+</tr>
+<tr>
+<td> lg(n) </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> √n </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> n </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> n lg(n) </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> n^2 </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> n^3 </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> 2^n </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td> n! </td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </table>
