@@ -165,16 +165,16 @@
 > ![计算图例](./images/Algorithms/2.1-4.jpg "计算图例")
 > ```
 > function binary_add(a, b){
-> 	var key = 0, c = new Array(a.length);
+>     var key = 0, c = new Array(a.length);
 >     for(var i = a.length-1; i >= 0; i--){
-> 		c[i] = a[i] + b[i] + key;
-> 		if(c[i] >= 2) key = 1;
-> 		else key = 0;
-> 		if(c[i] % 2 == 0) c[i] = 0;
-> 		else c[i] = 1;
-> 	}
->   if(key == 1) c.unshift(key);
-> 	return c;
+>         c[i] = a[i] + b[i] + key;
+>         if(c[i] >= 2) key = 1;
+>         else key = 0;
+>         if(c[i] % 2 == 0) c[i] = 0;
+>         else c[i] = 1;
+>     }
+>     if(key == 1) c.unshift(key);
+>     return c;
 > }
 > binary_add([1,0,1,0,1], [1,1,0,0,1]); // [1, 0, 1, 1, 1, 0]
 > ```
