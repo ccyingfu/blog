@@ -161,4 +161,19 @@
 > ```
 > 
 > 2.1-4 考虑吧两个 n 位二进制整数加起来的问题，这两个整数分别存储在连个 n 元数组 A 和 B 中。这两个整数的和应该按二进制形式存储在一个(n+1)元数组 C 中。请给出该问题的形式化描述，并写出伪代码。
-> 
+> ![计算图例](./images/Algorithms/2.1-4.jpg "计算图例")
+> ```
+> function binary_add(a, b){
+> 	var key = 0, c = new Array(a.length);
+>     for(var i = a.length-1; i >= 0; i--){
+> 		c[i] = a[i] + b[i] + key;
+> 		if(c[i] >= 2) key = 1;
+> 		else key = 0;
+> 		if(c[i] % 2 == 0) c[i] = 0;
+> 		else c[i] = 1;
+> 	}
+>     if(key == 1) c.unshift(key);
+> 	return c;
+> }
+> binary_add([1,0,1,0,1], [1,1,0,0,1]); // [1, 0, 1, 1, 1, 0]
+> ```
