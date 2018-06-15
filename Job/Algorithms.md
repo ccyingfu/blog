@@ -172,7 +172,7 @@
 > 		if(c[i] % 2 == 0) c[i] = 0;
 > 		else c[i] = 1;
 > 	}
->     if(key == 1) c.unshift(key);
+>   if(key == 1) c.unshift(key);
 > 	return c;
 > }
 > binary_add([1,0,1,0,1], [1,1,0,0,1]); // [1, 0, 1, 1, 1, 0]
