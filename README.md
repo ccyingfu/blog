@@ -14,6 +14,7 @@
 ### Collection
 1. [来一场轰轰烈烈的HTTP协议扫盲革命(转)](https://juejin.im/post/5ac1eb2d6fb9a028de44dd41)
 2. [React 模式](https://github.com/SangKa/react-in-patterns-cn)
+3. [未来世界的生存者](http://www.ruanyifeng.com/survivor/index.html)
 
 ## For Life
 ###
